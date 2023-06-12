@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(/font/Poppins-Regular.ttf);
+}
+
+*{
+     margin: 0; padding: 0;
+}
+
+body{
+    font-family: 'Poppins-Regular';
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url(/images/app.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1000px;
+}
+
+.fond{
+    display: flex;
+    height: 1000px;
+    
+}
+
+.align-end {
+    justify-content: flex-end;
+    background-color: black;
+    width: 20%;
+    padding-left: 4px;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+
+.left{
+    display: flex;
+    width: 45%;
+    height: 50vh;
+    margin-top: 300px;
+    margin-left: 25px;
+    align-content: center;
+    background-color: rgb(0, 0, 0); opacity: 50%;
+    border-radius: 5px;
+    
+}
+
+.take{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photos{
+    width: 75%;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 0 30px 0;
+    border: solid gray 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+
+.super{
+    width: 75%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.dl{
+    width: 75%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgb(112, 172, 21);
+}
+
+.left img{
+    width: 7.5%;
+}
+
+.left .take p{
+    color: white;
+}
+
+.tour{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    height: 50px;
+    width: 85%;
+    margin-top: 30em;
+    border-color: green;
+}
+
+.tour .align-end p{
+    font-size: 30px;
+    color: white;
+    height: 44px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.align-end, .tour{
+    position: sticky;
+    top: 50vh;
+}
+
+.p1{
+    display: flex;
+    width: 100%;
+}
+
+.why{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.App{
+    width: 100%;
+    font-size: 100px;
+    padding-top: 70px;
+    margin-left: 25px;
+}
+
+.buy{
+    width: 100%;
+    font-size: 80px;
+    color: rgb(6, 199, 6);
+    margin-left: 25px;
+}
+
+.onme{
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+.onme span{
+    font-size: 40px;
+}
+
+.down img{
+    width: 25px;
+}
+
+.down{
+    width: 40%;
+    font-size: 30px;
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.down a{
+    color: black;
+}
+
+.dispo img{
+    width: 45px;
+}
+
+.dispo{
+    width: 100%;
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.inception{
+    width: 26%;
+    margin-left: 250px;
+    margin-top: 75px;
+}
+
+.inception img{
+    width: 100%;
+}
+
+.p2{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(231, 231, 231);
+}
+
+.tower{
+    width: 33%;
+    margin-left: 25px;
+    margin-top: 100px;
+    filter: grayscale(75%);
+}
+
+.tower img{
+    height: 500px;
+}
+
+.clarance{
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+.titre{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.sous{
+    color: red;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.clarance p{
+    font-size: 25px;
+}
+
+.clarance span{
+    font-size: 35px;
+}
+
+.p3{
+    text-align: center;
+    background-color: gray;
+}
+
+.Features{
+    width: 100%;
+    
+}
+
+.p3 .Features h1{
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    
+}
+
+.p3 p{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    
+}
+
+.feet{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap ;
+    width: 100%;
+    height: 800px;
+}
+
+.thunder, .struck, .love, .photo, .power, .diamond, .nuage, .globe, .storage, .safe, .bouclier, .wifi, .picture{
+    width: 25%;
+    color: white;
+}
+
+.feet img{
+    width: 20%;
+}
