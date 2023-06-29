@@ -280,3 +280,35 @@ header{
 .feet img{
     width: 20%;
 }
+
+/* pricing */
+
+.p4{
+    text-align: center;
+}
+
+.p4 .offre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.p4 .offre .basic{
+    width: 45%;
+}
+
+.p4 .offre .basic .base{
+    background-color: gray;
+    padding: 30px;
+}
+
+.p4 .offre .basic .base ~ p{
+    padding: 15px;
+}
+
+.p4 .offre .basic .price{
+    padding: 30px;
+}
+
+.p4 .offre .basic .price ~ p{
+    padding: 30px;
+}
